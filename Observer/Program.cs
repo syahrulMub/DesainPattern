@@ -40,10 +40,10 @@ public class Stock
 
 //definition class for stock trader
 
-public class Treader
+public class Investor
 {
     private string _name;
-    public Treader(string name)
+    public Investor(string name)
     {
         _name = name;
     }
@@ -60,8 +60,8 @@ public class Program
         Stock googleStock = new Stock("Google", 100);
         Stock amazonStock = new Stock("Amazon", 200);
 
-        Treader kroz = new Treader("Kroz");
-        Treader Fah = new Treader("Fah");
+        Investor kroz = new Investor("Kroz");
+        Investor Fah = new Investor("Fah");
 
         googleStock.PriceChanged += kroz.OnStockChanged;
         googleStock.PriceChanged += Fah.OnStockChanged;
