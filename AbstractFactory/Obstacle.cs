@@ -12,5 +12,6 @@ public class Rock : IObstacle
     public void interact()
     {
         Console.WriteLine("interact with Rock");
+
     }
 }

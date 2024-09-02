@@ -8,6 +8,5 @@ class Program
         GameEngine gr = new GameEngine(jungle);
         gr.Play();
         gr.IEnemy.Attact();
-        
     }
 }
