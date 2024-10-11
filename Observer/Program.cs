@@ -39,7 +39,6 @@ public class Stock
 }
 
 //definition class for stock trader
-
 public class Investor
 {
     private string _name;

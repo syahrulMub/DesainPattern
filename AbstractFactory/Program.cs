@@ -7,6 +7,5 @@ class Program
         IMap jungle = new Jungle();
         GameEngine gr = new GameEngine(jungle);
         gr.Play();
-        gr.IEnemy.Attact();
     }
 }
