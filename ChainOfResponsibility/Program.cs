@@ -4,7 +4,7 @@ public class Program
 {
     static void Main(string[] args)
     {
-        int requestBudget = 70000000;
+        int requestBudget = 700000000;
         PositionHandler manager = new Manager();
         PositionHandler director = new Director();
         PositionHandler CEO = new CEO();

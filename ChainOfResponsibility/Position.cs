@@ -16,6 +16,7 @@ public class Manager : PositionHandler
         }
         else if (money >= 1000000 && _nextHandler == null)
         {
+            Console.WriteLine("Manager can't accept the request.");
             Console.WriteLine("Request rejected.");
         }
     }
@@ -37,6 +38,7 @@ public class Director : PositionHandler
         }
         else if (money >= 50000000 && _nextHandler == null)
         {
+            Console.WriteLine("Director can't accept the request.");
             Console.WriteLine("Request rejected.");
         }
     }
@@ -58,6 +60,7 @@ public class CEO : PositionHandler
         }
         else if (money >= 100000000 && _nextHandler == null)
         {
+            Console.WriteLine("CEO can't accept the request.");
             Console.WriteLine("Request rejected.");
         }
     }
