@@ -7,7 +7,7 @@ public class Car : IVehicle
 {
 	public void Drive()
 	{
-		Console.WriteLine("Drive a car");
+		Console.WriteLine("Drive some car");
 	}
 }
 
@@ -19,7 +19,7 @@ public class Bike : IVehicle
 	}
 }
 
-public abstract class VehicleFactory 
+public abstract class VehicleFactory
 {
 	public abstract IVehicle CreateVehicle();
 
@@ -53,7 +53,7 @@ public class Program
 		VehicleFactory factory;
 		factory = new CarFactory();
 		factory.SomeOperation();
-	
+
 		factory = new BikeFactory();
 		factory.SomeOperation();
 	}
