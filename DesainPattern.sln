@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operation", "UnitTest\Opera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{FE932BE2-5A31-4444-BC6A-0E8FA661FE07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeDesignPattern", "FacadeDesignPattern\FacadeDesignPattern.csproj", "{1D673CA5-4B24-4725-A3D9-EA1F4156B401}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +58,10 @@ Global
 		{FE932BE2-5A31-4444-BC6A-0E8FA661FE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE932BE2-5A31-4444-BC6A-0E8FA661FE07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE932BE2-5A31-4444-BC6A-0E8FA661FE07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D673CA5-4B24-4725-A3D9-EA1F4156B401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D673CA5-4B24-4725-A3D9-EA1F4156B401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D673CA5-4B24-4725-A3D9-EA1F4156B401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D673CA5-4B24-4725-A3D9-EA1F4156B401}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{613D660E-CB25-47E3-8A09-6FE8FDCA11B8} = {7CEFAAD0-BD4D-4E64-9910-55E2BD646C62}
