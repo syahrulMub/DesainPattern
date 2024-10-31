@@ -2,12 +2,28 @@ namespace Sinomtech;
 
 public class CateringServices : ICateringServices
 {
-    private string _cateringName;
-    public CateringServices(string cateringName)
+    private string? _cateringName;
+    public CateringServices()
     {
-        _cateringName = cateringName;
     }
 
+    public bool SetCateringService(string service)
+    {
+        if (service == null)
+        {
+            Console.WriteLine("Invalid catering name.");
+            return false;
+        }
+        else
+        {
+            _cateringName = service;
+            return true;
+        }
+    }
+    public string GetCateringService()
+    {
+        return _cateringName ?? "Unknown catering";
+    }
     public void SetMenuPlanning(string menuPlanning)
     {
         Console.WriteLine($"{_cateringName} is planning menu: {menuPlanning}");
