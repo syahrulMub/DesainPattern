@@ -7,7 +7,7 @@ public class CateringServices : ICateringServices
     {
     }
 
-    public bool SetCateringService(string service)
+    public bool SetCateringServices(string service)
     {
         if (service == null)
         {
@@ -20,7 +20,7 @@ public class CateringServices : ICateringServices
             return true;
         }
     }
-    public string GetCateringService()
+    public string GetCateringServices()
     {
         return _cateringName ?? "Unknown catering";
     }
