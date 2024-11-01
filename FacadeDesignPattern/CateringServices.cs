@@ -36,6 +36,10 @@ public class CateringServices : ICateringServices
     {
         Console.WriteLine($"{_cateringName} is calculating total price for menu");
     }
+    public void SetCateringStand()
+    {
+        Console.WriteLine($"{_cateringName} is setting up catering stand");
+    }
     public void OpenMenu()
     {
         Console.WriteLine($"{_cateringName} is opening menu");
