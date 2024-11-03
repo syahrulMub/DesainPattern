@@ -4,13 +4,20 @@ namespace FacadeDesignPattern;
 
 public class DocumentationServices : IDocumentationServices
 {
-    private string _name;
+    private string? _name;
 
-    public DocumentationServices(string name)
+    public DocumentationServices()
     {
-        _name = name;
     }
-
+    public bool SetDocumentationServices(string documentation)
+    {
+        _name = documentation;
+        return true;
+    }
+    public string GetDocumentationServices()
+    {
+        return _name ?? "documentation not yet set";
+    }
     public void TakePicture()
     {
         Console.WriteLine($"{_name} taking a picture");
