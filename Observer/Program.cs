@@ -1,10 +1,9 @@
-﻿using System.Collections.Generic;
-namespace StockAndTrader;
+﻿namespace StockAndTrader;
 //definition class for changes information
 
 public class StockChangeEventArgs : EventArgs
 {
-    public string CompanyName { get; set; }
+    public string? CompanyName { get; set; }
     public decimal PriceChange { get; set; }
 }
 
