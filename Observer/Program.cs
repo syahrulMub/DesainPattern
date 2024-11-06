@@ -68,5 +68,6 @@ public class Program
 
         googleStock.UpdatePrice(200);
         amazonStock.UpdatePrice(300);
+        amazonStock.UpdatePrice(400);
     }
 }
