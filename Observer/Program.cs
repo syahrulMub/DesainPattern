@@ -6,8 +6,6 @@ public class StockChangeEventArgs : EventArgs
     public string? CompanyName { get; set; }
     public decimal PriceChange { get; set; }
 }
-
-
 //definition class for stock
 public class Stock
 {
