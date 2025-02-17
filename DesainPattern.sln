@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeDesignPattern", "Faca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandDesignPattern", "CommandDesignPattern\CommandDesignPattern.csproj", "{81D6D64C-7073-4A83-8924-F9232B43D5AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeDesignPattern", "CompositeDesignPattern\CompositeDesignPattern.csproj", "{5A78A047-F46E-40BE-B141-1E94990E273E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +70,10 @@ Global
 		{81D6D64C-7073-4A83-8924-F9232B43D5AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81D6D64C-7073-4A83-8924-F9232B43D5AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81D6D64C-7073-4A83-8924-F9232B43D5AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A78A047-F46E-40BE-B141-1E94990E273E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A78A047-F46E-40BE-B141-1E94990E273E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A78A047-F46E-40BE-B141-1E94990E273E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A78A047-F46E-40BE-B141-1E94990E273E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{613D660E-CB25-47E3-8A09-6FE8FDCA11B8} = {7CEFAAD0-BD4D-4E64-9910-55E2BD646C62}

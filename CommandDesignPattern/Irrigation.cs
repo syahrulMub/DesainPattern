@@ -1,3 +1,5 @@
+using System.ComponentModel;
+
 namespace CommandDesignPattern;
 
 public class Irrigation
@@ -14,5 +16,9 @@ public class Irrigation
     public void Close()
     {
         Console.WriteLine($"{_position} Irrigation system is closed.");
+    }
+    public void SetIrrigationVolume(float volume)
+    {
+        Console.WriteLine($"{_position} Irrigation system is set to volume {volume}");
     }
 }
