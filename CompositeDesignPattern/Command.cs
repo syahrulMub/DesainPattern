@@ -58,3 +58,37 @@ public class StopRobot : ICommand
         _movementComponent.Stop();
     }
 }
+
+public class RobotController
+{
+    private ICommand _moveCommand;
+    private ICommand _stopCommand;
+    public RobotController(ICommand moveCommand, ICommand stopCommand)
+    {
+        _moveCommand = moveCommand;
+        _stopCommand = stopCommand;
+    }
+    public void Move()
+    {
+        _moveCommand.Execute();
+    }
+    public void Stop()
+    {
+        _stopCommand.Execute();
+    }
+}
+
+public class Track
+{
+    public List<string> _point;
+    private int _trackLenght;
+    public Track(int trackLenght)
+    {
+        _point = [];
+        _trackLenght = trackLenght;
+    }
+    public void AddPoint(string point)
+    {
+        _point.Add(point);
+    }
+}
