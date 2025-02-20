@@ -3,17 +3,19 @@ namespace CompositeDesignPattern;
 public class MovementComponent
 {
     private IRobotComponent _component;
+    private int _currentPointIndex;
     public MovementComponent(IRobotComponent component)
     {
         _component = component;
+        _currentPointIndex = 0;
     }
     public void Move()
     {
-        Console.WriteLine($"Moving {_component.GetName()}");
+        Console.WriteLine($"Moving {_component.GetName()} from {_currentPointIndex}");
     }
     public void Stop()
     {
-        Console.WriteLine($"Stopping {_component.GetName()}");
+        Console.WriteLine($"Stopping {_component.GetName()} at {_currentPointIndex}");
     }
 }
 
